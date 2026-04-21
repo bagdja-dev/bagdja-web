@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, Suspense } from "react";
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { getLanguageFromUrl, getTranslations, type Language } from "@/lib/translations";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -9,30 +9,8 @@ function HomeContent() {
   const searchParams = useSearchParams();
   const lang = getLanguageFromUrl(searchParams);
   const t = getTranslations(lang);
-  
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    alert(t.contact.form.success);
-    setFormData({ name: "", email: "", message: "" });
-  };
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const whatsappNumber = "6281234567890"; // Replace with actual WhatsApp number
+  const whatsappNumber = "6285188448383"; // Replace with actual WhatsApp number
   const whatsappMessage = encodeURIComponent(t.hero.whatsappMessage);
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
@@ -43,7 +21,7 @@ function HomeContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="text-xl font-bold text-gray-900">
-              Bagdja Development Group
+              Bagdja Digital
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#about" className="text-gray-700 hover:text-slate-900 transition font-medium">
@@ -282,7 +260,7 @@ function HomeContent() {
               </p>
             </div>
           </div>
-          
+
           {/* CTA after Services */}
           <div className="mt-16 text-center">
             <a
@@ -624,7 +602,7 @@ function HomeContent() {
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
-            <div className="mb-8 text-center">
+            <div className="mb-8 text-center gap-2 flex flex-row items-center align-middle justify-center">
               <a
                 href={whatsappUrl}
                 target="_blank"
@@ -640,70 +618,28 @@ function HomeContent() {
                 </svg>
                 {t.contact.whatsappCta}
               </a>
+              <a
+                href="mailto:contact@bagdja.com"
+                className="inline-flex items-center gap-3 bg-slate-800 text-white px-8 py-4 rounded-lg font-semibold hover:bg-slate-900 transition shadow-md text-lg"
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+                {t.contact.form.submit}
+              </a>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium text-gray-700 mb-2"
-                >
-                  {t.contact.form.name}
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-800 focus:border-slate-800 text-gray-900"
-                />
-              </div>
 
-              <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-gray-700 mb-2"
-                >
-                  {t.contact.form.email}
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-800 focus:border-slate-800 text-gray-900"
-                />
-              </div>
-
-              <div>
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium text-gray-700 mb-2"
-                >
-                  {t.contact.form.message}
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-slate-800 focus:border-slate-800 text-gray-900"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-slate-800 text-white px-6 py-4 rounded-lg font-semibold hover:bg-slate-900 transition shadow-md text-lg"
-              >
-                {t.contact.form.submit}
-              </button>
-            </form>
           </div>
         </div>
       </section>
@@ -714,7 +650,7 @@ function HomeContent() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="text-xl font-semibold mb-4">
-                Bagdja Development Group
+                Bagdja Digital
               </h3>
               <p className="text-gray-300 leading-relaxed">
                 {t.footer.description}
