@@ -16,7 +16,7 @@
   },
   "about": {
     "title": "Acerca de Nosotros",
-    "content1": "Bagdja Development Group es un socio tecnológico enfocado en desarrollo de software, despliegue y mantenimiento para empresas, instituciones y organizaciones.",
+    "content1": "Bagdja Digital es un socio tecnológico enfocado en desarrollo de software, despliegue y mantenimiento para empresas, instituciones y organizaciones.",
     "content2": "Operamos como un grupo de desarrollo basado en servicios con un enfoque de ciclo de vida completo: Construir → Desplegar → Mantener. No solo desarrollamos sistemas, sino que también realizamos despliegues confiables y brindamos soporte continuo para asegurar que los sistemas funcionen bien a largo plazo.",
     "content3": "Trabajamos como socio tecnológico a largo plazo, no solo como proveedor basado en proyectos. Cada sistema que desarrollamos está diseñado para ser mantenible, actualizable y escalable según las necesidades de su negocio.",
     "content4": "Trabajamos de forma remota y por cita, permitiendo alta flexibilidad mientras mantenemos estándares consistentes de comunicación y entrega. Nuestro equipo entiende que la tecnología es una inversión a largo plazo, y estamos comprometidos a mantener esa inversión funcionando de manera óptima."
@@ -143,6 +143,6 @@
     "quickLinks": "Enlaces Rápidos",
     "contact": "Contacto",
     "remoteService": "Servicio remoto disponible con cita previa",
-    "copyright": "Bagdja Development Group. Todos los derechos reservados."
+    "copyright": "Bagdja Digital. Todos los derechos reservados."
   }
 }

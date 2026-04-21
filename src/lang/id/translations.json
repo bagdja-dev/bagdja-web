@@ -16,7 +16,7 @@
   },
   "about": {
     "title": "Tentang Kami",
-    "content1": "Bagdja Development Group adalah partner teknologi yang berfokus pada pengembangan software, deployment, dan maintenance untuk bisnis, institusi, dan organisasi.",
+    "content1": "Bagdja Digital adalah partner teknologi yang berfokus pada pengembangan software, deployment, dan maintenance untuk bisnis, institusi, dan organisasi.",
     "content2": "Kami beroperasi sebagai development group berbasis jasa dengan pendekatan full lifecycle: Build → Deploy → Maintain. Kami tidak hanya mengembangkan sistem, tetapi juga melakukan deployment yang andal dan memberikan dukungan berkelanjutan untuk memastikan sistem berjalan dengan baik dalam jangka panjang.",
     "content3": "Kami bekerja sebagai partner teknologi jangka panjang, bukan hanya vendor project-based. Setiap sistem yang kami kembangkan dirancang untuk dapat di-maintain, di-upgrade, dan berkembang seiring kebutuhan bisnis Anda.",
     "content4": "Kami bekerja secara remote dan berdasarkan appointment, memungkinkan fleksibilitas tinggi sambil menjaga standar komunikasi dan delivery yang konsisten. Tim kami memahami bahwa teknologi adalah investasi jangka panjang, dan kami berkomitmen untuk menjaga investasi tersebut tetap berjalan dengan optimal."
@@ -143,6 +143,6 @@
     "quickLinks": "Tautan Cepat",
     "contact": "Kontak",
     "remoteService": "Layanan remote tersedia berdasarkan appointment",
-    "copyright": "Bagdja Development Group. All rights reserved."
+    "copyright": "Bagdja Digital. All rights reserved."
   }
 }

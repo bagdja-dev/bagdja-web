@@ -16,7 +16,7 @@
   },
   "about": {
     "title": "About Us",
-    "content1": "Bagdja Development Group is a technology partner focused on software development, deployment, and maintenance for businesses, institutions, and organizations.",
+    "content1": "Bagdja Digital is a technology partner focused on software development, deployment, and maintenance for businesses, institutions, and organizations.",
     "content2": "We operate as a service-based development group with a full lifecycle approach: Build → Deploy → Maintain. We don't just develop systems, but also perform reliable deployment and provide ongoing support to ensure systems run well in the long term.",
     "content3": "We work as a long-term technology partner, not just a project-based vendor. Every system we develop is designed to be maintainable, upgradeable, and scalable according to your business needs.",
     "content4": "We work remotely and by appointment, allowing high flexibility while maintaining consistent communication and delivery standards. Our team understands that technology is a long-term investment, and we are committed to keeping that investment running optimally."
@@ -143,6 +143,6 @@
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "remoteService": "Remote service available by appointment",
-    "copyright": "Bagdja Development Group. All rights reserved."
+    "copyright": "Bagdja Digital. All rights reserved."
   }
 }
